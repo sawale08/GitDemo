@@ -43,6 +43,7 @@ public class TestBase {
 		{
 			System.setProperty("webdriver.chrome.driver","C:\\Users\\Sai\\workspace\\MavenProjects\\FreeCRMTest"
 					+ "\\src\\test\\resources\\driver\\chromedriver.exe" );
+			System.out.println("FreeCRM Project");
 			driver = new ChromeDriver();
 		}else if(browserName.equals("FF")){
 			System.setProperty("webdriver.gecko.driver","C:\\Users\\Sai\\workspace\\MavenProjects\\FreeCRMTest"
