@@ -53,6 +53,10 @@ public class HomePage extends TestBase {
 	
 	public TaskPage clickOnTaskTab(){
 		Taskslink.click();
+Taskslink.click();
+
+Taskslink.click();
+
 		return new TaskPage();
 	}
 	

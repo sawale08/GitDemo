@@ -49,6 +49,9 @@ public class LoginPage extends TestBase {
 	public HomePage login(String usn, String pwd ){
 		username.sendKeys(usn);
 		password.sendKeys(pwd);
+username.sendKeys(usn1);
+		password.sendKeys(pwd1);
+
 		loginbutton.click();
 		
 		return new HomePage();
