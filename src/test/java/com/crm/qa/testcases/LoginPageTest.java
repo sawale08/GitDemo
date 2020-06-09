@@ -37,11 +37,13 @@ public class LoginPageTest extends TestBase {
 	public void CRMlogoImageTest(){
 		boolean flag =loginPage.validateCRMlogo();
 		Assert.assertTrue(flag);
+System.out.println(" HomePage page verifired");
 	}
 	
 	@Test(priority=3)
 	public void logintest(){
 		homepage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+System.out.println("Successfully login into HomePage");
 	}
 	
 	@AfterMethod
