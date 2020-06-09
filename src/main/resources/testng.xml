@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Application Test Automation Test Suite">
+  <test name="Free CRM Application Test">
+    <classes>
+    //TCs should be run sequencially. Else it will take alphabetically.
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+     <!--  <class name="com.crm.qa.testcases.ContactsPageTest"/> -->
+      //if you want to ignore any class --> select class - right click - source - Add Block Comment
+      //if you want to uncomment --> select class - right click - source - Remove Block Comment
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
